@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "Hi", Toast.LENGTH_SHORT).show();
     }
+
+    public void Kashi(){
+        Toast.makeText(this, "This is kashif function", Toast.LENGTH_SHORT).show();
+    }
 }
