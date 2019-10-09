@@ -3,6 +3,7 @@ package com.example.newapptonewlib;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         a="kashif";
         b = "Rashiq";
+
+        Toast.makeText(this, "Hi", Toast.LENGTH_SHORT).show();
     }
 }
