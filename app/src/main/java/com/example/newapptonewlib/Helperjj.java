@@ -8,6 +8,6 @@ public class Helperjj {
     Context context;
 
     public void Helper(){
-        String a = "Kashif";
+        Toast.makeText(context, "Kashif", Toast.LENGTH_SHORT).show();
     }
 }
