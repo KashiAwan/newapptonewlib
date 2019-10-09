@@ -9,5 +9,6 @@ public class Helperjj {
 
     public void Helperss(){
         Toast.makeText(context, "Kashif", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Kashif", Toast.LENGTH_LONG).show();
     }
 }
