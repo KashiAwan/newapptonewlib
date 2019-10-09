@@ -7,7 +7,7 @@ public class Helperjj {
 
     Context context;
 
-    public void Helper(){
+    public void Helperss(){
         Toast.makeText(context, "Kashif", Toast.LENGTH_SHORT).show();
     }
 }
