@@ -5,7 +5,7 @@ import android.widget.Toast;
 
 public class Helperjj {
 
-    String A,B;
+    String A = "Kashif", B = "Rashiq";
 
     public Helperjj() {
     }
