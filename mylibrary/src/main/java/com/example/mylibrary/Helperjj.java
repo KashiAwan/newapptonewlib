@@ -5,10 +5,24 @@ import android.widget.Toast;
 
 public class Helperjj {
 
-    Context context;
+    String A,B;
 
-    public void Helperss(){
-        Toast.makeText(context, "Kashif", Toast.LENGTH_SHORT).show();
-        Toast.makeText(context, "Kashif", Toast.LENGTH_LONG).show();
+    public Helperjj() {
+    }
+
+    public String getA() {
+        return A;
+    }
+
+    public void setA(String a) {
+        A = a;
+    }
+
+    public String getB() {
+        return B;
+    }
+
+    public void setB(String b) {
+        B = b;
     }
 }
